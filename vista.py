@@ -7,7 +7,7 @@ from PyQt6.QtCore import Qt
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Extractor de Datos - Regex")
+        self.setWindowTitle("Practica 3 - Expresiones Regulares CSLM - HPAA")
         self.resize(850, 650)
         
         self.setStyleSheet("""
