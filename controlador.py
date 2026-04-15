@@ -150,11 +150,6 @@ class Controlador:
         self.vista.lbl_resumen_links.setText(f"Total Links: {total_l}")
         self.vista.lbl_resumen_fechas.setText(f"Total Fechas: {total_f}")
 
-        #2. Títulos de las pestañas (Tabs)
-        self.vista.tabs.setTabText(0, f"Correos ({total_c})")
-        self.vista.tabs.setTabText(1, f"Links ({total_l})")
-        self.vista.tabs.setTabText(2, f"Fechas ({total_f})")
-
         #Aviso visual al usuario
         QMessageBox.information(self.vista, "Proceso Terminado", "¡Se han generado los archivos TXT exitosamente!")
 

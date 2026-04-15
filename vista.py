@@ -41,7 +41,7 @@ class VentanaPrincipal(QMainWindow):
         layout_global = QVBoxLayout(contenedor_principal)
 
         layout_header = QHBoxLayout()
-        self.titulo_practica = QLabel("Práctica 3: Expresiones Regulares en Python")
+        self.titulo_practica = QLabel("Práctica 3: Expresiones Regulares")
         self.titulo_practica.setStyleSheet("font-size: 16pt; color: #4A148C;")
         self.btn_inicio = QPushButton("Inicio")
         self.btn_inicio.setFixedWidth(100)
@@ -72,7 +72,7 @@ class VentanaPrincipal(QMainWindow):
         layout = QVBoxLayout(pagina)
         layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        subtitulo = QLabel("Desarrollado por: Angel Abraham Higuera Pineda")
+        subtitulo = QLabel("Desarrollado por: \nLizeth Montserrat Cerón Samperio\nAngel Abraham Higuera Pineda")
         subtitulo.setStyleSheet("font-size: 12pt; margin-bottom: 30px;")
         subtitulo.setAlignment(Qt.AlignmentFlag.AlignCenter)
         
